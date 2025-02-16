@@ -18,6 +18,7 @@ body{
 .based{
     max-width: 100%;
 }
+}
 .no{
     display: flex;
     background-color: white;
@@ -57,14 +58,14 @@ img{
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
-}
+    margin-top: 20px;}
 p{
     margin-bottom: 0%;
 }
 .assignment{
   color: hsl(158, 36%, 37%);
 }
-    .icon{
+.icon{
     margin-right: 5px;
 }
 .nah h6{
