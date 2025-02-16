@@ -6,12 +6,23 @@ body{
     align-items: center;
     justify-content: center;
 }
+@media only screen and (max-width: 550px) {
+.no{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+}
+.nah{
+    max-width: 100%;
+}
+.based{
+    max-width: 100%;
+}
 .no{
     display: flex;
     background-color: white;
     border-radius: 2%;
-    width: 60%;
-    height: 360px;
+    width: 55%;
 }
 .nah{
     padding: 15px;
@@ -31,9 +42,8 @@ img{
 }
 .nuh-uh{
     text-align: center;
-    
+    margin-top: 15px;
     align-items: center;
-    height: 10%;
     margin-bottom: 14px;
 }
 .add {
@@ -43,7 +53,7 @@ img{
     font-family: "montserrat", sans-serif;
     font-weight: 600;
     width: 100px;
-    padding: 10px 70px 10px 30px;
+    padding: 10px 15px;
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
@@ -53,4 +63,22 @@ p{
 }
 .assignment{
   color: hsl(158, 36%, 37%);
+}
+    .icon{
+    margin-right: 5px;
+}
+.nah h6{
+    margin: 0;
+    padding-bottom: 15px;
+}
+.nah h1{
+    margin: 0;
+    padding-bottom: 15px;
+}
+.nah p{
+    padding-bottom: 10px;
+    margin: 0;
+}
+.never p{
+    padding-bottom: 15px;
 }
